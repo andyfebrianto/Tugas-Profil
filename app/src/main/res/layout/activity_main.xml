@@ -9,14 +9,16 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="210dp"
-        android:background="@drawable/bg"/>
+        android:background="@drawable/bg"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp">
+        android:layout_marginRight="20dp"
+        tools:ignore="MissingConstraints">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -70,7 +72,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Asli orang kalimantan yang lagi kuliah di ITN Malang"
+                            android:text="@string/deskripsi"
                             android:textAlignment="center"
                             android:textSize="18dp"
                             android:textStyle="italic"
@@ -115,7 +117,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="rating"
+                            android:text="@string/rating"
                             android:textSize="20dp"/>
 
 
@@ -139,7 +141,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="project"
+                            android:text="@string/project"
                             android:textSize="20dp"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -158,7 +160,7 @@
                         android:layout_marginRight="10dp"
                         android:textColor="@color/colorAccent"
                         android:background="@drawable/outline"
-                        android:text="Portfolio"/>
+                        android:text="@string/portfolio"/>
 
                     <Button
                         android:layout_width="125dp"
@@ -168,7 +170,7 @@
                         android:layout_marginRight="10dp"
                         android:textColor="@color/SolidCircle"
                         android:background="@drawable/outline1"
-                        android:text="Hire Me"/>
+                        android:text="@string/hereme"/>
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
