@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi Bahasa</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="deskripsi">Asli orang kalimantan yang lagi kuliah di ITN Malang</string>
+    <string name="hereme">HERE ME</string>
+    <string name="portfolio">PORTFOLIO</string>
+    <string name="project">Project</string>
+    <string name="rating">Rating</string>
+</resources>
